@@ -11,9 +11,7 @@ contract Escrow {
 
   address public employer;
   address public employee;
-
   uint8 public amount;
-
   mapping (address => bool) public approvals;
 
   EscrowState public status;
